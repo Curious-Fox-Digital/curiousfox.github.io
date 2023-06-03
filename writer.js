@@ -1,5 +1,7 @@
 const texts = [
+	{ text: "A curious software company" },
 	{ text: "Curious Fox Oy" },
+	{ text: "Professional web and software development" },
 	{ text: "info@curiousfox.fi", href: "mailto:info@curiousfox.fi" }
 ];
 let interval;
