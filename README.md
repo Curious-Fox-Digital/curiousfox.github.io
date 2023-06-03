@@ -1,2 +1,2 @@
 # curiousfox.github.io
-Curious Fox Digital landing page
+Curious Fox landing page
