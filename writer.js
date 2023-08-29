@@ -1,4 +1,5 @@
 const texts = [
+	{ text: ">" },
 	{ text: "A curious software company" },
 	{ text: "Curious Fox Oy" },
 	{ text: "Professional web and software development" },
@@ -17,7 +18,7 @@ function getPostfix(href) {
 }
 
 function typeWriter() {
-  const output = document.getElementById("writer");
+  const output = document.getElementById("text");
   let text = texts[textIndex].text;
   let href = texts[textIndex].href;
   output.innerHTML = getPrefix(href) + text.substring(0, charIndex) + getPostfix(href);
@@ -30,10 +31,10 @@ function typeWriter() {
 		textIndex = 0;
 	}
 	const sleep = setTimeout(() => {
-		output.textContent = '';
+		output.innerHTML = '';
 		interval = setInterval(typeWriter, 60);
 	}, 5000);
   }
 }
 
-interval = setInterval(typeWriter, 60+(Math.random()*25));
+interval = setInterval(typeWriter, 60);
