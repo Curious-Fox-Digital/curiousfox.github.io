@@ -1,9 +1,9 @@
 const texts = [
-	{ text: ">" },
 	{ text: "A curious software company" },
 	{ text: "Curious Fox Oy" },
 	{ text: "Professional web and software development" },
-	{ text: "info@curiousfox.fi", href: "mailto:info@curiousfox.fi" }
+	{ text: "info@curiousfox.fi", href: "mailto:info@curiousfox.fi" },
+	{ text: ">" }
 ];
 let interval;
 let textIndex = 0;
