@@ -8,6 +8,16 @@ body {
   margin: 0;
   padding: 0;
   background-color: #000;
+  background-image: url('logo.svg');
+  -webkit-background-size: content;
+  -moz-background-size: content;
+  -o-background-size: content;
+  background-size: content;
+  -webkit-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  background-repeat: no-repeat;  
+  background-position: center;
 }
 
 .text {
