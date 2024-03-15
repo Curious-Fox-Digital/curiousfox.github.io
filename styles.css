@@ -8,12 +8,12 @@ body {
   margin: 0;
   padding: 0;
   background-color: #000;
-  background-image: url('logo.svg');
-  -webkit-background-size: content;
-  -moz-background-size: content;
-  -o-background-size: content;
-  background-size: content;
-  -webkit-background-repeat: no-repeat;
+  background-image: url('logo_v2.svg');
+  -webkit-background-size: 80% 80%;
+  -moz-background-size: 80% 80%;
+  -o-background-size: 80% 80%;
+  background-size: 80% 80%;
+  -webkit-background-repeat:80% 80%;
   -moz-background-repeat: no-repeat;
   -o-background-repeat: no-repeat;
   background-repeat: no-repeat;  
