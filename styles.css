@@ -40,6 +40,29 @@ body {
   animation: blink .5s infinite alternate;
 }
 
+.contact-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.contact-btn a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.contact-btn a:hover {
+  text-decoration: underline;
+  color: #70b8f7; /* A light blue hover color */
+}
+
 /* Adapted from http://aleclownes.com/2017/02/01/crt-display.html */
 @keyframes blink {
   from {
